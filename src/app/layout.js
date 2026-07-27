@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-    title: 'Next.js',
+    title: 'Pesquisa Next.js',
     description: 'Informações sobre o Next.js',
 };
 
