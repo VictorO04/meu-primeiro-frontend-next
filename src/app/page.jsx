@@ -1,30 +1,10 @@
 import styles from './page.module.css';
 import Card from "../components/Card/Card";
+import recursos from "../data/recursos.json";
 
 export default function Home() {
-    const listaCards = [
-        {
-            id: 1,
-            titulo: "Modos de Renderização",
-            imagem: "/images/modos-renderizacao.png",
-            conteudo: "Gera páginas no servidor (SSR), durante o build (SSG) ou atualiza em segundo plano (ISR)."
-        },
-        {
-            id: 2,
-            titulo: "Roteamento e Estrutura",
-            imagem: "/images/roteamento.webp",
-            conteudo: "Pastas viram rotas automáticas. Rotas dinâmicas usam colchetes no nome da pasta (ex: [id])."
-        },
-        {
-            id: 3,
-            titulo: "Otimização e Desempenho",
-            imagem: "/images/otimizacao.jpg",
-            conteudo: "Utiliza Server Components, Code Splitting e otimizações automáticas de imagens e fontes para melhorar o desempenho."
-        }
-    ]
-
     return (
-        <main className={styles.container}>
+        <main className={styles.main}>
             <section className={styles.tituloContainer}>
                 <h1>Next.js</h1>
                 <div className={styles.separador} />
@@ -40,8 +20,12 @@ export default function Home() {
                     <h2 className={styles.recursosTitulo}>Principais Recursos</h2>
                 </div>
                 <div className={styles.cards}>
-                    {listaCards.map(card => <Card key={card.id} titulo={card.titulo} imagem={card.imagem}  conteudo={card.conteudo} />)}
+                    {recursos.map(card => <Card key={card.id} titulo={card.titulo} imagem={card.imagem}  conteudo={card.conteudo} />)}
                 </div>
+            </section>
+
+            <section>
+
             </section>
 
         </main>

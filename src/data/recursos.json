@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        " titulo": "Modos de Renderização",
+        "imagem": "/images/modos-renderizacao.png",
+        "conteudo": "Gera páginas no servidor (SSR), durante o build (SSG) ou atualiza em segundo plano (ISR)."
+    },
+    {
+        "id": 2,
+        "titulo": "Roteamento e Estrutura",
+        "imagem": "/images/roteamento.webp",
+        "conteudo": "Pastas viram rotas automáticas. Rotas dinâmicas usam colchetes no nome da pasta (ex: [id])."
+    },
+    {
+        "id": 3,
+        "titulo": "Otimização e Desempenho",
+        "imagem": "/images/otimizacao.jpg",
+        "conteudo": "Utiliza Server Components, Code Splitting e otimizações automáticas de imagens e fontes para melhorar o desempenho."
+    }
+]
