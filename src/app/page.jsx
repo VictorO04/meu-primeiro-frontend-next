@@ -7,19 +7,19 @@ export default function Home() {
             id: 1,
             titulo: "Modos de Renderização",
             imagem: "/images/modos-renderizacao.png",
-            conteudo: "SSR: gera no servidor a cada acesso. SSG: gera no build. ISR: atualiza páginas estáticas em segundo plano."
+            conteudo: "Gera páginas no servidor (SSR), durante o build (SSG) ou atualiza em segundo plano (ISR)."
         },
         {
             id: 2,
             titulo: "Roteamento e Estrutura",
             imagem: "/images/roteamento.webp",
-            conteudo: "Baseado em arquivos: pastas viram rotas automáticas. Rotas dinâmicas usam colchetes no nome da pasta (ex: [id])."
+            conteudo: "Pastas viram rotas automáticas. Rotas dinâmicas usam colchetes no nome da pasta (ex: [id])."
         },
         {
             id: 3,
             titulo: "Otimização e Desempenho",
             imagem: "/images/otimizacao.jpg",
-            conteudo: "Server Components: rodam no servidor. Code Splitting: divide o JavaScript. Otimiza imagens e fontes de forma automática."
+            conteudo: "Utiliza Server Components, Code Splitting e otimizações automáticas de imagens e fontes para melhorar o desempenho."
         }
     ]
 
