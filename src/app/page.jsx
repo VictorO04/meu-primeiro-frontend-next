@@ -21,7 +21,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className={styles.recursosContainer}>
-                    <h2 className={styles.recursosTitulo}>
+                    <h2 className={styles.h2Titulo}>
                         Principais Recursos
                     </h2>
                     <div className={styles.cards}>
@@ -37,6 +37,36 @@ export default function Home() {
                 </div>
             </section>
 
+            <section className={styles.tabelaSection}>
+                <h2 className={styles.h2Titulo}>
+                    React e Next.js
+                </h2>
+                <div className={styles.comparacao}>
+                    <div className={styles.coluna}>
+                        <h3>React</h3>
+
+                        <ul>
+                            <li>Biblioteca JavaScript.</li>
+                            <li>Renderização no cliente (CSR) por padrão.</li>
+                            <li>Roteamento com React Router.</li>
+                            <li>Precisa de mais configurações.</li>
+                            <li>SEO menos eficiente.</li>
+                        </ul>
+                    </div>
+
+                    <div className={styles.coluna}>
+                        <h3>Next.js</h3>
+
+                        <ul>
+                            <li>Framework baseado em React.</li>
+                            <li>Suporta SSR, SSG, ISR e CSR.</li>
+                            <li>Roteamento automático.</li>
+                            <li>Otimizações integradas.</li>
+                            <li>SEO otimizado.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
