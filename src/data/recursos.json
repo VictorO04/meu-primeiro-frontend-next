@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        " titulo": "Modos de Renderização",
+        "titulo": "Modos de Renderização",
         "imagem": "/images/modos-renderizacao.png",
         "conteudo": "Gera páginas no servidor (SSR), durante o build (SSG) ou atualiza em segundo plano (ISR)."
     },
