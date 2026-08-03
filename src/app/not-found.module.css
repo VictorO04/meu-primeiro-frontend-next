@@ -3,4 +3,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.textosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.textosContainer p {
+    font-size: 1.5rem;
+}
+
+.botao{
+    background-color: rgb(237, 243, 253);
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: rgb(225, 237, 255);
+    color: black;
 }
